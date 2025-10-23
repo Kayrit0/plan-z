@@ -1,7 +1,7 @@
 z = {
     "a": "z",
-    "b": "z_pzuztziznz_z",
-    "c": "ZzZ",
+    "b": "z_pzuzt",
+    "c": "Zziznz_zzZ",
     "d": "ZV",
     "e": "z_",
     "f": "zz",
@@ -22,10 +22,10 @@ z = {
     "u": "___z",
     "v": "Z_z_z",
     "w": "z_z_Z",
-    "x": "z__zZz",
-    "y": "zzZ_zz",
-    "z": "Z_puztlzerz_z",
-    " ": "SZWZOZ_Z",
+    "x": "Z_puz",
+    "y": "tlz",
+    "z": "erz_z",
+    " ": "zZov_z",
 }
 
 s = str(input())
@@ -36,6 +36,6 @@ for l in s:
     a = z.get(l)
     if a is not None:
         zhopa += a
-        zhopa += "o"
+        # zhopa += "o"
 
 print(zhopa)
